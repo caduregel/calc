@@ -22,18 +22,20 @@ function Equals() {
         let oneNum = parseInt(inputOne)
         let twoNum = parseInt(inputTwo)
 
+        // Create a variable for each of the possible calculations
         let sum = oneNum + twoNum
         let minus = oneNum - twoNum
         let product = oneNum * twoNum
         let division = oneNum / twoNum
 
+        // set the answer to one of the above made variables depending on what operator is used
         if (whichOperator == "+") { setAnswer(sum.toString()) }
         else if (whichOperator == "-") { setAnswer(minus.toString()) }
         else if (whichOperator == "x") { setAnswer(product.toString()) }
         else if (whichOperator == "/") { setAnswer(division.toString()) }
 
-
-        setAnswerClicked(true)
+        // Reset atoms to default, setWhichInput does not change back to false, NEEDS FIXED!
+        // setAnswerClicked(true)
         setInputOne("")
         setInputTwo("")
         setWhichOperator("")

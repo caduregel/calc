@@ -32,9 +32,9 @@ function KeyboardNum(props: any) {
             }
         }
 
-        if(answerClicked == true) {
-            setAnswer("")
-        }
+        // if(answerClicked == true) {
+        //     setAnswer("")
+        // }
 
     }
 

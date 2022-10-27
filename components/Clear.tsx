@@ -14,7 +14,7 @@ function Clear() {
 
     let [ , setWhichInput ] = useRecoilState(whichInputAtom)
 
-    // Do the equation
+    // Reset all values to default
     const clearCalc = () => {
         setInputOne("")
         setInputTwo("")
