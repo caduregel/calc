@@ -24,9 +24,13 @@ function Equals() {
 
         let sum = oneNum + twoNum
         let minus = oneNum - twoNum
+        let product = oneNum * twoNum
+        let division = oneNum / twoNum
 
         if (whichOperator == "+") { setAnswer(sum.toString()) }
         else if (whichOperator == "-") { setAnswer(minus.toString()) }
+        else if (whichOperator == "x") { setAnswer(product.toString()) }
+        else if (whichOperator == "/") { setAnswer(division.toString()) }
 
 
         setAnswerClicked(true)
