@@ -1,3 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+  .keybutton {
+    @apply bg-zinc-600 rounded-lg shadow-xl h-20 w-20 text-4xl hover:cursor-pointer flex justify-center items-center
+  }
+  .keyOperator {
+  @apply bg-zinc-500 rounded-lg shadow-xl h-20 w-20 text-4xl hover:cursor-pointer flex justify-center items-center
+  }
+}
+
+
+
 html,
 body {
   padding: 0;
