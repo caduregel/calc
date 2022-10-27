@@ -1,7 +1,7 @@
 import React from 'react'
 import KeyboardNum from './KeyboardNum'
 import KeyboardOperators from './KeyboardOperators'
-import Equals from './equals'
+import Equals from './Equals'
 import Clear from './Clear'
 
 function Keyboard() {
